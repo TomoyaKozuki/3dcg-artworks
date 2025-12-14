@@ -1,0 +1,209 @@
+﻿@charset "utf-8"; 
+
+
+
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea, p, th, td, img {
+	margin: 0; 
+	padding: 0; 
+	border: 0; 
+}
+
+body {
+	line-height: 2;	
+	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; 
+	font-size: 75%; 
+	color: #333333; 
+}
+
+ol, ul {
+	list-style: none; 
+}
+
+a { 
+	color: #0000FF; 
+	text-decoration: none; 
+}
+
+a:hover { 
+	color: #C74B15; 
+	text-decoration: underline; 
+}
+
+.color1 {
+	color: #FF0033; 
+}
+
+
+
+#header {
+	position: relative; 
+	height: 80px; 
+	width: 950px; 
+	margin: auto; 
+	color: #333333; 
+}
+
+#header h1 {
+	position: absolute; 
+	right: 10px; 
+	bottom: 5px; 
+	font-size: 1em; 
+	font-weight: normal; 
+}
+
+#logo {
+	position: absolute; 
+	left: 5px; 
+	top: 5px; 
+}
+
+
+
+.nav ul {
+	float: right; 
+	margin-top: 5px; 
+}
+
+.nav li {
+	float: left; 
+	font-weight: bold; 
+}
+
+.nav li a {
+	width: 100px; 
+	color: #16160e; 
+	line-height: 30px; 
+	text-decoration: none; 
+	display: block; 
+	text-align: center; 
+}
+
+.nav a:hover {
+	background-image: url(../images/menu.gif); 
+	background-repeat: repeat-x; 
+}
+
+
+
+#container { 
+	width: 950px; 
+	margin: auto; 
+	background-color:#ffffff; 
+}
+
+#container a:hover img { 
+	filter: Alpha(opacity=70); 
+	opacity: 0.7; 
+}
+
+#content {
+	width: 760px; 
+	float: left; 
+	margin-bottom: 20px; 
+}
+
+#rightside {
+	width: 160px; 
+	float: right; 
+	margin-bottom: 20px; 
+}
+
+
+
+#footer {
+	clear: both; 
+	height: 30px; 
+	width: auto; 
+	font-size: 0.75em; 
+}
+
+#footer p {
+	float: right; 
+}
+
+
+
+#footmenu {
+	float: left; 
+}
+
+#footmenu li {
+	padding-left: 15px; 
+	display: inline; 
+	list-style-type: none; 
+}
+
+#footmenu li.first {
+	padding-left: 0; 
+}
+
+
+
+.post {
+	clear: both; 
+	width: auto; 
+}
+
+.post h2 {
+	margin: 0; 
+	font-size: 1em; 
+	line-height: 30px; 
+	border-bottom: solid 1px #cccccc; 
+	margin-bottom: 20px; 
+}
+
+.post ul {
+	margin-bottom: 20px; 
+}
+
+.post ul li {
+	padding-left: 15px; 
+}
+
+.newlist {
+	margin-bottom: 15px; 
+}
+
+.newlist dl {
+	width: auto; 
+	height: 200px; 
+	overflow: auto; 
+	padding-left: 5px; 
+	text-align: left; 
+}
+
+.newlist dd {
+	border-bottom: solid 1px #cccccc; 
+	margin: 5px 10px 10px 5px; 
+}
+
+
+
+.imglist ul {
+	margin-left: -26px; 
+}
+
+.imglist ul li {
+	padding: 0; 
+	float: left; 
+	display: inline; 
+	margin-left: 26px; 
+	margin-bottom: 26px; 
+}
+
+#preview {
+	position: absolute; 
+	border: solid 1px #16160e; 
+	background-color: #16160e; 
+	padding: 2px; 
+	display:none; 
+	color: #ffffff; 
+}
+
+
+
+#rightside h2 {
+	margin: 0; 
+	font-size: 1em; 
+	line-height: 30px; 
+}
