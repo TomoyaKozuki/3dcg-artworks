@@ -11,7 +11,7 @@ body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, input, textarea
 body {
 	line-height: 2;	/*行の高さ指定(数値のみの場合はfont-sizeの倍数)*/
 	font-family: "メイリオ", Meiryo, "ＭＳ Ｐゴシック", Osaka, "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro"; /*フォントの種類指定(左から優先順位)*/
-	font-size: 75%; /* フォントサイズ指定(%はブラウザに設定した標準文字サイズ(通常16px)に対する値)*/
+	font-size: 90%; /* フォントサイズ指定(%はブラウザに設定した標準文字サイズ(通常16px)に対する値)*/
 	color: #333333; /*文字色指定*/
 }
 
