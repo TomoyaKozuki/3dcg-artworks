@@ -16,7 +16,7 @@
 }
 .twilight-show {
 	width: 950px;
-	height: 500px;
+	height: 700px;
 	overflow: hidden;
 	position: relative;
 }
@@ -47,7 +47,7 @@
 .twilight-show .arrow-right {
 	position: absolute;
 	z-index: 10;
-	top: 220px;
+	top: 320px;
 	cursor: pointer;
 }
 .twilight-show .arrow-left {
