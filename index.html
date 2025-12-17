@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="Content-Style-Type" content="text/css" />
 <meta http-equiv="Content-Script-Tyoe" content="text/javascript" />
-<title>ここにキーワードを含むページのタイトルを記入</title>
-<meta name="Description" content="ここにキーワードを含むページの説明文を記入" />
+<title>KozukiTomoya Portfolio</title>
+<!-- <meta name="Description" content="ここにキーワードを含むページの説明文を記入" /> -->
 <meta name="Keywords" content="キーワード,キーワード,キーワード" />
 <link rel="icon" href="http://saetl.net/favicon.ico" type="image/x-icon" />
 <link rel="shortcut icon" type="img/x-icon" href="http://saetl.net/favicon.ico" />
@@ -17,13 +17,13 @@
 
 <!--　ヘッダー（サイト名やサイトの内容を示す部分）　-->
 <div id="header">
-  <h1>ここにキーワードを含むページの見出しを記入</h1>
+  <!-- <h1>ここにキーワードを含むページの見出しを記入</h1> -->
   
   <!-- ロゴ（ページ左上のサイト名の画像）　-->
   <div id="logo"> <a href="https://github.com/TomoyaKozuki" title="(サイト名)のトップページへ"><img src="images/logo.gif" width="130" height="70" alt="(サイト名)のトップページへ" /></a> 
     <!-- / #logo --></div>
   
-  <!--　ナビゲーションメニュー（ヘッダー内のメインメニュー）ー-->
+  <!--　ナビゲーションメニュー（ヘッダー内のメインメニュー）ー ここに作品の詳細な説明を行いたい-->
   <div class="nav">
     <ul>
       <li><a href="index.html">HOME</a></li>
@@ -68,57 +68,38 @@
     
     <!--　ページの中央部分　-->
     <div class="post"> <img src="images/border1.gif" alt="border" width="950" height="20" />
-      <h2>テンプレートのご利用について</h2>
-      <ul>
-        <li>このテンプレートはすべて無料でご利用いただける<a href="http://saetl.net/">Saetl.net</a>から配布しています。 </li>
-        <li><span class="color1">著作権表示は必要ありません（テンプレートにも記載はありません）</span>
-          <ul>
-            <li>無料テンプレートでよくあるページ内の著作権表示は一切必要ありませんのでご自由にお使いください。<br />
-              詳しくは<a href="http://saetl.net/about.html">利用規約</a>をご覧ください。 </li>
-          </ul>
-        </li>
-  <br />
-        <li><a href="http://saetl.net/howto.html">ご利用方法はこちら</a>からお願いします。</li>
-      </ul>
+      <h2>KozukiTomoya Portfolio</h2>
+        <p>こんにちは、KozukiTomoyaです。このサイトでは、私が手掛けた3Dモデリング、レンダリング、シェーダー開発、DirectX12プログラミングなどの作品を紹介しています。</p>
       <!-- / .post --></div>
     <div class="post">
-      <h2>Sample Image</h2>
+      <h2>3D Modeling & Rendering</h2>
+      <div class="imglist">
+        <ul>
+          <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword001.jpg" alt="サンプル画像" width="200" height="400" /></a><div class="caption">バスターソード1</div></li>
+          <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword002.jpg" alt="サンプル画像" width="200" height="400" /></a><div class="caption">バスターソード2</div></li>
+        </ul>
+        <!-- / .imglist --></div>
+      <!-- / .post --></div>
+
+    <div class="post">
+      <h2>Shader Works</h2>
       <div class="imglist">
         <ul>
           <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword001.jpg" alt="サンプル画像" width="200" height="400" /></a></li>
           <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword002.jpg" alt="サンプル画像" width="200" height="400" /></a></li>
-          <!-- <li><a href="images/img/1.jpg" class="preview" title="sample image"><img src="images/img/1.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/img/2.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/3.jpg" class="preview" title="sample image"><img src="images/img/3.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/4.jpg" class="preview" title="sample image"><img src="images/img/4.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/5.jpg" class="preview" title="sample image"><img src="images/img/5.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/6.jpg" class="preview" title="sample image"><img src="images/img/6.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/7.jpg" class="preview" title="sample image"><img src="images/img/7.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/8.jpg" class="preview" title="sample image"><img src="images/img/8.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/9.jpg" class="preview" title="sample image"><img src="images/img/9.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/10.jpg" class="preview" title="sample image"><img src="images/img/10.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/11.jpg" class="preview" title="sample image"><img src="images/img/11.jpg" alt="サンプル画像" width="170" height="170" /></a></li>
-          <li><a href="images/img/12.jpg" class="preview" title="sample image"><img src="images/img/12.jpg" alt="サンプル画像" width="170" height="170" /></a></li> -->
         </ul>
         <!-- / .imglist --></div>
-      
-      <!-- / .post --></div>
-    <div class="post">
-      <h2>news</h2>
-      <div class="newlist">
-        <dl>
-          <dt>20xx/xx/xx</dt>
-          <dd><a href="#">テキスト</a></dd>
-          <dt>20xx/xx/xx</dt>
-          <dd><a href="#">テキスト</a></dd>
-          <dt>20xx/xx/xx</dt>
-          <dd><a href="#">テキスト</a></dd>
-          <dt>20xx/xx/xx</dt>
-          <dd><a href="#">テキスト</a></dd>
-        </dl>
-        <!-- / .newlist --></div>
       <!-- / .post --></div>
     
+    <div class="post">
+      <h2>DirectX12 Programming</h2>
+      <div class="imglist">
+        <ul>
+          <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword001.jpg" alt="サンプル画像" width="200" height="400" /></a><div class="caption">GGX(トーンマッピング無)</div></li>
+          <li><a href="images/img/2.jpg" class="preview" title="sample image"><img src="images/3dcg-model/sword002.jpg" alt="サンプル画像" width="200" height="400" /></a><div class="caption">GGX(トーンマッピング有)</div></li>
+        </ul>
+        <!-- / .imglist --></div>
+      <!-- / .post --></div>
     <!-- / #content --></div>
   
   <!--　ページの下部分　-->
