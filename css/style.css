@@ -70,7 +70,7 @@ a:hover { /*リンクの文字設定(マウスをのせた時)*/
 }
 
 .nav li a {
-	width: 300px; /*幅指定*/
+	width: 200px; /*幅指定*/
 	color: #16160e; /*文字色指定*/
 	line-height: 80px; /*行の高さ指定*/
 	text-decoration: none; /*テキストの装飾指定(下線、上線など)(noneはなし)*/
