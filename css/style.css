@@ -97,14 +97,7 @@ a:hover { /*リンクの文字設定(マウスをのせた時)*/
 }
 
 #content {
-	width: 760px; /*幅指定(100%は画面横幅いっぱいに表示)*/
-	float: left; /*要素を左か右に寄せて配置(leftは左に寄せる)*/
-	margin-bottom: 20px; /*ボックス外側下の余白*/
-}
-
-#rightside {
-	width: 160px; /*幅指定*/
-	float: right; /*要素を左か右に寄せて配置(rightは右に寄せる)*/
+	width: 100%; /*幅指定(100%は画面横幅いっぱいに表示)*/
 	margin-bottom: 20px; /*ボックス外側下の余白*/
 }
 
