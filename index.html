@@ -67,7 +67,7 @@
     </noscript>
     
     <!--　ページの中央部分　-->
-    <div class="post"> <img src="images/border1.gif" alt="border" width="760" height="20" />
+    <div class="post"> <img src="images/border1.gif" alt="border" width="950" height="20" />
       <h2>テンプレートのご利用について</h2>
       <ul>
         <li>このテンプレートはすべて無料でご利用いただける<a href="http://saetl.net/">Saetl.net</a>から配布しています。 </li>
@@ -144,7 +144,10 @@
 <script type="text/javascript" src="js/twilight/js/twilight.js"></script> <!--スライドショー--> 
 <script type="text/javascript">
 $(document).ready(function() {
-	$('.twilight-show').twilight();
+	$('.twilight-show').twilight({
+    animTime: 1200, // スライド速度を1.2秒に
+    easingMargin: 'swing' // イージングをswing（滑らか）に
+  });
 });
 </script> 
 <script>
