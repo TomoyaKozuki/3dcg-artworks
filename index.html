@@ -143,18 +143,24 @@
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script> <!--googleのCDN（ネットワーク経由でコンテンツを提供するサービス）よりjqueryをロード--> 
 <script type="text/javascript" src="js/twilight/js/twilight.js"></script> <!--スライドショー--> 
 <script type="text/javascript">
+var slideTimer;
+function startAutoSlide() {
+  slideTimer = setTimeout(function autoSlide() {
+    $("div.arrow-right img").click();
+    slideTimer = setTimeout(autoSlide, 5000);
+  }, 5000);
+}
 $(document).ready(function() {
-	$('.twilight-show').twilight({
-    animTime: 1200, // スライド速度を1.2秒に
-    easingMargin: 'swing' // イージングをswing（滑らか）に
+  $('.twilight-show').twilight();
+  startAutoSlide();
+  $("div.arrow-right img").on("click", function() {
+    clearTimeout(slideTimer);
+    startAutoSlide();
   });
 });
-</script> 
+</script>
 <script>
- setTimeout(function() {
- $("div.arrow-right img").click();
- setTimeout(arguments.callee, 5000); // スクロールの間隔
-},5000); // 一番最初のスクロールまでの時間
+
 </script> 
 <script type="text/javascript" src="js/main.js"></script> <!--画像拡大（ポップアップ）-->
 
