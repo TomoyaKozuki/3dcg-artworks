@@ -1,7 +1,7 @@
 # 3dcg-portfolio
 
 🌐 **Portfolio Website**  
-https://tomoyakozuki.github.io/WebSample/
+https://tomoyakozuki.github.io/3dcg-artworks/
 
 A personal portfolio of my 3D artworks and CG projects.
 
